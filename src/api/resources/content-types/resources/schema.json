@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources_pages",
+  "info": {
+    "singularName": "resources",
+    "pluralName": "resources-pages",
+    "displayName": "Resources",
+    "description": "Resources page content (testimonials and case studies)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonialsTitle": {
+      "type": "string",
+      "default": "Testimonials",
+      "required": false
+    },
+    "testimonialsDescription": {
+      "type": "text",
+      "default": "Resources to Power Your AI Video Journey",
+      "required": false
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "resources.testimonial",
+      "repeatable": true
+    },
+    "caseStudiesSectionTitle": {
+      "type": "text",
+      "default": "Case Studies",
+      "required": false
+    },
+    "CaseStudyDescription": {
+      "type": "text",
+      "required": false
+    },
+    "caseStudies": {
+      "type": "component",
+      "component": "resources.case-study",
+      "repeatable": true
+    }
+  }
+}
