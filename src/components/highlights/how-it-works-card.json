@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_highlights_how_it_works_cards",
+  "info": {
+    "displayName": "How It Works Card",
+    "description": "Step card for how it works section"
+  },
+  "options": {},
+  "attributes": {
+    "card_number": {
+      "type": "string",
+      "required": true
+    },
+    "card_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card_title": {
+      "type": "string",
+      "required": true
+    },
+    "card_description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
+

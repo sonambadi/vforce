@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_partners_platform_features",
+  "info": {
+    "displayName": "Platform Feature",
+    "description": "Feature item for platform sections"
+  },
+  "options": {},
+  "attributes": {
+    "feature_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "feature_text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

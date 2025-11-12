@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_performance_media_ads_slides",
+  "info": {
+    "displayName": "Ads Slide",
+    "description": "Carousel slide for actual ads section"
+  },
+  "options": {},
+  "attributes": {
+    "clientName": {
+      "type": "string",
+      "required": true
+    },
+    "clientLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "fromText": {
+      "type": "string",
+      "required": true
+    },
+    "toText": {
+      "type": "string",
+      "required": true
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos"]
+    },
+    "results": {
+      "type": "component",
+      "repeatable": true,
+      "component": "performance-media.result-item"
+    }
+  }
+}
