@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_creator_sourcing_case_studies",
+  "info": {
+    "displayName": "Case Study",
+    "description": "Case study with logo and metrics"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "metric_number": {
+      "type": "string",
+      "required": true
+    },
+    "metric_label": {
+      "type": "string",
+      "required": true
+    },
+    "metric_detail": {
+      "type": "text",
+      "required": false
+    },
+    "metric_quote": {
+      "type": "text",
+      "required": false
+    }
+  }
+}
+

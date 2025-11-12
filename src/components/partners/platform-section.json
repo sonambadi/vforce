@@ -1,0 +1,86 @@
+{
+  "collectionName": "components_partners_platform_sections",
+  "info": {
+    "displayName": "Platform Section",
+    "description": "Full platform section with title, features, and media"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string",
+      "required": true
+    },
+    "section_description": {
+      "type": "text",
+      "required": true
+    },
+    "target_brands": {
+      "type": "text",
+      "required": false
+    },
+    "section_features": {
+      "type": "component",
+      "component": "partners.platform-feature",
+      "repeatable": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": false
+    },
+    "button_link": {
+      "type": "string",
+      "required": false
+    },
+    "section_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "section_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "section_video_poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "section_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "section_blur_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": ["left", "right"],
+      "default": "right",
+      "required": false
+    },
+    "section_css_class": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
+
