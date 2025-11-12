@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_creator_sourcing_metrics",
+  "info": {
+    "displayName": "Metric",
+    "description": "Metric item with number, label and detail"
+  },
+  "options": {},
+  "attributes": {
+    "metric_number": {
+      "type": "string",
+      "required": true
+    },
+    "metric_label": {
+      "type": "string",
+      "required": true
+    },
+    "metric_detail": {
+      "type": "text",
+      "required": false
+    }
+  }
+}
+
