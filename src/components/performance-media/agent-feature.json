@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_performance_media_agent_features",
+  "info": {
+    "displayName": "Agent Feature",
+    "description": "Performance Media Agent feature section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "performance-media.feature-item"
+    }
+  }
+}

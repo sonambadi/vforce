@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_highlights_video_carousel_cards",
+  "info": {
+    "displayName": "Video Carousel Card",
+    "description": "Card for winning moments video carousel"
+  },
+  "options": {},
+  "attributes": {
+    "card_description": {
+      "type": "text",
+      "required": true
+    },
+    "card_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "card_video_poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card_brand_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+

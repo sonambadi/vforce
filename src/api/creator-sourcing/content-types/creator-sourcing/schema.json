@@ -1,0 +1,198 @@
+{
+  "kind": "singleType",
+  "collectionName": "creator_sourcing_pages",
+  "info": {
+    "singularName": "creator-sourcing",
+    "pluralName": "creator-sourcing-pages",
+    "displayName": "Creator Sourcing",
+    "description": "Creator Sourcing page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "text",
+      "default": "Lower Your CAC.",
+      "required": false
+    },
+    "hero_subtitle": {
+      "type": "text",
+      "default": "Scale Your Reach. Own Content at Scale.",
+      "required": false
+    },
+    "hero_description": {
+      "type": "text",
+      "required": false
+    },
+    "hero_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_button_primary_text": {
+      "type": "string",
+      "default": "Start Sourcing Creators",
+      "required": false
+    },
+    "hero_button_primary_link": {
+      "type": "string",
+      "required": false
+    },
+    "hero_button_secondary_text": {
+      "type": "string",
+      "default": "Book a Demo",
+      "required": false
+    },
+    "hero_button_secondary_link": {
+      "type": "string",
+      "required": false
+    },
+    "agent_title": {
+      "type": "text",
+      "default": "Your Creator Sourcing Agent Works 24/7",
+      "required": false
+    },
+    "agent_description": {
+      "type": "text",
+      "required": false
+    },
+    "ugc_section_title": {
+      "type": "string",
+      "default": "UGC Content",
+      "required": false
+    },
+    "ugc_features": {
+      "type": "component",
+      "component": "creator-sourcing.feature",
+      "repeatable": true
+    },
+    "ugc_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "influencer_section_title": {
+      "type": "string",
+      "default": "Influencer Marketing",
+      "required": false
+    },
+    "influencer_features": {
+      "type": "component",
+      "component": "creator-sourcing.feature",
+      "repeatable": true
+    },
+    "influencer_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "influencer_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "influencer_video_poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "influencer_button_text": {
+      "type": "string",
+      "default": "Book a demo",
+      "required": false
+    },
+    "influencer_button_link": {
+      "type": "string",
+      "required": false
+    },
+    "viral_section_title": {
+      "type": "string",
+      "default": "Viral MEME Content",
+      "required": false
+    },
+    "viral_features": {
+      "type": "component",
+      "component": "creator-sourcing.feature",
+      "repeatable": true
+    },
+    "viral_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "build_title": {
+      "type": "string",
+      "default": "Build-A-Bear",
+      "required": false
+    },
+    "build_subtitle": {
+      "type": "text",
+      "default": "From Test to Scalable Creator Engine (Deep Dive)",
+      "required": false
+    },
+    "build_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "challenge_title": {
+      "type": "string",
+      "default": "Challenge",
+      "required": false
+    },
+    "challenge_description": {
+      "type": "text",
+      "required": false
+    },
+    "solution_title": {
+      "type": "string",
+      "default": "VideoForce.ai Solution",
+      "required": false
+    },
+    "solution_description": {
+      "type": "text",
+      "required": false
+    },
+    "testimonial_quote": {
+      "type": "text",
+      "required": false
+    },
+    "testimonial_author": {
+      "type": "string",
+      "required": false
+    },
+    "metrics": {
+      "type": "component",
+      "component": "creator-sourcing.metric",
+      "repeatable": true
+    },
+    "case_studies": {
+      "type": "component",
+      "component": "creator-sourcing.case-study",
+      "repeatable": true
+    }
+  }
+}

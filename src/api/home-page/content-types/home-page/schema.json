@@ -1,0 +1,238 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Home page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "text",
+      "required": false
+    },
+    "hero_subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "hero_description": {
+      "type": "text",
+      "required": false
+    },
+    "hero_button_primary_text": {
+      "type": "string",
+      "required": false
+    },
+    "hero_button_primary_link": {
+      "type": "string",
+      "required": false
+    },
+    "hero_button_secondary_text": {
+      "type": "string",
+      "required": false
+    },
+    "hero_button_secondary_link": {
+      "type": "string",
+      "required": false
+    },
+    "hero_pill_text": {
+      "type": "string",
+      "required": false
+    },
+    "hero_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "hero_video_placeholder_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "howitworks_badge_text": {
+      "type": "string",
+      "required": false
+    },
+    "howitworks_title": {
+      "type": "text",
+      "required": false
+    },
+    "howitworks_subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "howitworks_ipad_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "sourcing_title": {
+      "type": "text",
+      "required": false
+    },
+    "sourcing_subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "sourcing_description": {
+      "type": "text",
+      "required": false
+    },
+    "sourcing_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "sourcing_video_poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sourcing_features": {
+      "type": "component",
+      "component": "home-page.feature",
+      "repeatable": true
+    },
+    "sourcing_button_text": {
+      "type": "string",
+      "required": false
+    },
+    "sourcing_button_link": {
+      "type": "string",
+      "required": false
+    },
+    "highlights_title": {
+      "type": "text",
+      "required": false
+    },
+    "highlights_patent_text": {
+      "type": "string",
+      "required": false
+    },
+    "highlights_subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "highlights_description": {
+      "type": "text",
+      "required": false
+    },
+    "highlights_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "highlights_video_poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "highlights_features": {
+      "type": "component",
+      "component": "home-page.feature",
+      "repeatable": true
+    },
+    "highlights_free_text": {
+      "type": "text",
+      "required": false
+    },
+    "highlights_button_primary_text": {
+      "type": "string",
+      "required": false
+    },
+    "highlights_button_primary_link": {
+      "type": "string",
+      "required": false
+    },
+    "highlights_button_secondary_text": {
+      "type": "string",
+      "required": false
+    },
+    "highlights_button_secondary_link": {
+      "type": "string",
+      "required": false
+    },
+    "performance_title": {
+      "type": "text",
+      "required": false
+    },
+    "performance_patent_text": {
+      "type": "string",
+      "required": false
+    },
+    "performance_subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "performance_description": {
+      "type": "text",
+      "required": false
+    },
+    "performance_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "performance_features": {
+      "type": "component",
+      "component": "home-page.feature",
+      "repeatable": true
+    },
+    "performance_button_text": {
+      "type": "string",
+      "required": false
+    },
+    "performance_button_link": {
+      "type": "string",
+      "required": false
+    },
+    "performance_main_title": {
+      "type": "text",
+      "required": false
+    },
+    "performance_stats_pill": {
+      "type": "text",
+      "required": false
+    },
+    "performance_cards": {
+      "type": "component",
+      "component": "home-page.performance-card",
+      "repeatable": true
+    },
+    "performance_global_stats": {
+      "type": "component",
+      "component": "home-page.global-stat",
+      "repeatable": true
+    }
+  }
+}
+

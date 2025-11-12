@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners_pages",
+  "info": {
+    "singularName": "partners",
+    "pluralName": "partners-pages",
+    "displayName": "Partners Page",
+    "description": "Partners page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "text",
+      "required": false
+    },
+    "hero_description": {
+      "type": "text",
+      "required": false
+    },
+    "hero_button_text": {
+      "type": "string",
+      "required": false
+    },
+    "hero_button_link": {
+      "type": "string",
+      "required": false
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "brand_title": {
+      "type": "text",
+      "required": false
+    },
+    "partner_section_title": {
+      "type": "text",
+      "required": false
+    },
+    "partner_section_description": {
+      "type": "text",
+      "required": false
+    },
+    "partner_button_primary_text": {
+      "type": "string",
+      "required": false
+    },
+    "partner_button_primary_link": {
+      "type": "string",
+      "required": false
+    },
+    "partner_button_secondary_text": {
+      "type": "string",
+      "required": false
+    },
+    "partner_button_secondary_link": {
+      "type": "string",
+      "required": false
+    },
+    "platform_sections": {
+      "type": "component",
+      "component": "partners.platform-section",
+      "repeatable": true
+    }
+  }
+}
